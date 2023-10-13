@@ -19,6 +19,7 @@ Use the following commands in your terminal or command prompt to install the req
 ```bash
 pip install Flask torch diffusers
 pip install openai moviepy Pillow
+```
 
 API Keys 🔐
 Your OpenAI API key needs to be placed in the config.py file as shown:
