@@ -21,29 +21,26 @@ pip install Flask torch diffusers
 pip install openai moviepy Pillow
 ```
 
-API Keys 🔐
+#### API Keys 🔐
 Your OpenAI API key needs to be placed in the config.py file as shown:
 
-python
-Copy code
+~
 API_KEYS = {
     'openai': 'PUT_YOUR_API_KEY_HERE'
 }
+~
 Code File: config.py
-Running the Application 🚀
+
+#### Running the Application 🚀
 Execute the following command to get the app up and running:
 
-bash
-Copy code
+```
 python main.py
+```
+
 This kickstarts the Flask application. You can then access the web interface by heading to http://localhost:5000 on your web browser.
 
 Usage 🖱️
 Once on the web interface, input your text into the provided area and hit "Generate Video". The application will then weave a story, spawn images, morph them into a video, and showcase it on the webpage.
 
 Note: Ensure to substitute 'PUT_YOUR_API_KEY_HERE' with your actual OpenAI API key to ensure the application operates seamlessly.
-
-sql
-Copy code
-
-Feel free to copy and paste this into your README.md file. It utilizes markdown s
