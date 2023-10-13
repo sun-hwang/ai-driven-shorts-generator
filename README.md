@@ -29,7 +29,7 @@ API_KEYS = {
     'openai': 'PUT_YOUR_API_KEY_HERE'
 }
 ```
-Code File: config.py
+Code File: [config.py](https://github.com/sun-hwang/vvs_generator/blob/09010b78d4f139b831017681bf8d366428a9cfcf/config.py)
 
 #### Running the Application 🚀
 Execute the following command to get the app up and running:
