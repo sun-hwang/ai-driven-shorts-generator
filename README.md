@@ -5,9 +5,6 @@
 
 ![image](https://github.com/sun-hwang/vvs_generator/assets/146854712/05245396-47cb-4455-8072-1bac440de167)
 
-Sample video
-
-[![Video Label](http://img.youtube.com/vi/NdxJA0li79U/0.jpg)](https://youtu.be/NdxJA0li79U?t=0s)
     
 
 ## How it Works 🛠️
@@ -48,7 +45,14 @@ python main.py
 
 This kickstarts the Flask application. You can then access the web interface by heading to http://localhost:5000 on your web browser.
 
+
 Usage 🖱️
 Once on the web interface, input your text into the provided area and hit "Generate Video". The application will then weave a story, spawn images, morph them into a video, and showcase it on the webpage.
+
+
+
+Sample video
+
+[![Video Label](http://img.youtube.com/vi/NdxJA0li79U/0.jpg)](https://youtu.be/NdxJA0li79U?t=0s)
 
 Note: Ensure to substitute 'PUT_YOUR_API_KEY_HERE' with your actual OpenAI API key to ensure the application operates seamlessly.
