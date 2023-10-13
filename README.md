@@ -6,7 +6,7 @@
 ## How it Works 🛠️
 ### Story Generation 📜
 Upon receiving user input, a concise three-sentence story is crafted using GPT-4 and saved as a text file.
-- **Code File**: `main.py`
+- **Code File**: [`main.py`](https://github.com/sun-hwang/vvs_generator/blob/64ffc491965ca11ea8db6f780734892107f886ee/main.py)
 - **HTML Template**: [`index.html`](https://github.com/sun-hwang/vvs_generator/blob/0c398f64c3b685491ef3247a225610a3b183f892/templates/index.html)
 
 ## Setup and Configuration ⚙️
