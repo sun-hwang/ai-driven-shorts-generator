@@ -24,11 +24,11 @@ pip install openai moviepy Pillow
 #### API Keys 🔐
 Your OpenAI API key needs to be placed in the config.py file as shown:
 
-~
+```
 API_KEYS = {
     'openai': 'PUT_YOUR_API_KEY_HERE'
 }
-~
+```
 Code File: config.py
 
 #### Running the Application 🚀
