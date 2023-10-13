@@ -4,8 +4,7 @@
 **VVS Generator** is a cutting-edge web application enabling users to generate short videos from textual inputs. Powered by the formidable GPT-4 for story generation and a sophisticated diffusion model for image creation, it brings textual stories to life in a visually stunning format.
 
 ![image](https://github.com/sun-hwang/vvs_generator/assets/146854712/05245396-47cb-4455-8072-1bac440de167)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NdxJA0li79U?si=hRqePeW3oj8mywDj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Video Label](http://img.youtube.com/vi/NdxJA0li79U/0.jpg)](https://youtu.be/NdxJA0li79U?t=0s)
     
 
 ## How it Works 🛠️
