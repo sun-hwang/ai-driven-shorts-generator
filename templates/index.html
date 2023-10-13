@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Shorts Video Generator</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;            
+            background-image: url('static/bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        form {
+            margin-top: 20px;
+        }
+        textarea {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        iframe {
+            margin-top: 20px;
+        }
+        .icon {
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <i class="fas fa-film icon"></i>
+    <h1>Welcome to Shorts Video Generator</h1>
+    <p>Enter your text and generate a short video!</p>
+    
+    <form method="POST" action="/">
+        <label for="user_input">Your Text:</label><br>
+        <textarea name="user_input" id="user_input" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Generate Video">
+    </form>
+    
+     <div id="spinner" style="display:none;">
+        <i class="fas fa-spinner fa-spin icon"></i>
+        <p>Generating your video, please wait...</p>
+    </div>
+
+    {% if video_url %}
+        <p>Your Generated Video:</p>
+        <video width="560" height="315" controls>
+            <source src="{{ video_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    {% endif %}
+    
+    <p>AI Story:</p>
+    <ul>
+        {% for subtitleItem in subtitle %}
+            <li>{{ subtitleItem }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>Sample Video:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NdxJA0li79U?si=hRqePeW3oj8mywDj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var form = document.getElementById("videoForm");
+            var spinner = document.getElementById("spinner");
+            
+            form.addEventListener("submit", function() {
+                spinner.style.display = "block";
+            });
+        });
+    </script>
+</body>
+</html>
