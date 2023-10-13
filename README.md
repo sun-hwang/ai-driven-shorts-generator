@@ -13,6 +13,7 @@ Upon receiving user input, a concise three-sentence story is crafted using GPT-4
 
 ### Installation 📥
 Before diving in, ensure **Python** is installed on your system. Subsequently, the necessary Python packages, such as Flask, torch, and diffusers need to be set up.
+[Diffusers: https://huggingface.co/runwayml/stable-diffusion-v1-5]
 
 #### Installing Dependencies 🔗
 Use the following commands in your terminal or command prompt to install the requisite packages:
